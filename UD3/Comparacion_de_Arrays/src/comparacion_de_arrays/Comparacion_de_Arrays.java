@@ -40,19 +40,24 @@ public class Comparacion_de_Arrays {
 //
 //            }
 //        }
-//            for(int i=0;i<array1.length;i++){
-//                if(array1[i]==array2[i]){              }
-//                else{  a=false; } }
-            if(array1.length!=array2.length)return false;
-            int contador=0;
-            for(int nota :array1){
-                if(nota!=array2[contador]){
-                    return false;
-                }
-                else{
-                    contador++;
-                }
+            try{
+            for(int i=0;i<=array1.length;i++){
+                if(array1[i]==array2[i]){              }
+                else{  a=false; } }
+//            if(array1.length!=array2.length)return false;
+//            int contador=0;
+//            for(int nota :array1){
+//                if(nota!=array2[contador]){
+//                    return false;
+//                }
+//                else{
+//                    contador++;
+//                }
+//            }
+            }catch(ArrayIndexOutOfBoundsException e){
+                
             }
+            
         return a;
     }
 
