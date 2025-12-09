@@ -46,21 +46,78 @@ public class Bicicleta {
     public void setPinonActual(int pinonActual) {
         this.pinonActual = pinonActual;
     }
+
     //Metodos - Cambiamos el comportamiento
-    public void acelerar(){
-        Random aleatorio=new Random();
-        this.velocidadActual =velocidadActual+aleatorio.nextInt(10)+1;
+    public void acelerar() {
+        Random aleatorio = new Random();
+        this.velocidadActual = velocidadActual + aleatorio.nextInt(10) + 1;
     }
-     public void frenar(){
-        Random aleatorio=new Random();
-        this.velocidadActual =velocidadActual-aleatorio.nextInt(10)+1;
+
+    public void frenar() {
+        Random aleatorio = new Random();
+        this.velocidadActual = velocidadActual - aleatorio.nextInt(10) + 1;
     }
-     public void cambiarPlato(int plato){
-         this.platoActual = plato;
-        
-     }
-     public void cambiarPinon(int pinon){
-  
-        this.pinonActual = pinon;
-     }
+
+    public boolean cambiarPlato(int plato) {
+        if (this.platoActual >= 1 || this.platoActual <= 3) {
+            return true;
+        } else {
+            return false;
+        }
+    
+    }
+
+    public boolean cambiarPinon(int pinon) {
+        if (this.pinonActual >= 1 || this.pinonActual <= 13) {
+            return true;
+        } else {
+            return false;
+        }
+    
+    }
+
+    public void cambiarPlato(String plato) {
+        System.out.println("Introduzca + si quieres subir el plato o - si quieres disminuirlos");
+        String calibPlato = System.console().readLine();
+        if (calibPlato.equals("+")) {
+            if (this.platoActual == 3) {
+                System.out.println("No puedes aumentar más los platos");
+            } else {
+                this.platoActual++;
+            }
+
+        } else if (calibPlato.equals("-")) {
+            if (this.platoActual == 1) {
+                System.out.println("No puedes disminuir más los platos");
+            } else {
+                this.platoActual--;
+            }
+
+        } else {
+            System.out.println("Valor incorrecto");
+        }
+    }
+
+    public void cambiarPinon(String pinon) {
+
+        System.out.println("Introduzca + si quieres subir el pinon o - si quieres disminuirlos");
+        String calibPinon = System.console().readLine();
+        if (calibPinon.equals("+")) {
+            if (this.pinonActual == 12) {
+                System.out.println("No puedes aumentar más los pinones");
+            } else {
+                this.pinonActual++;
+            }
+
+        } else if (calibPinon.equals("-")) {
+            if (this.pinonActual == 1) {
+                System.out.println("No puedes disminuir más los pinones");
+            } else {
+                this.pinonActual--;
+            }
+
+        } else {
+            System.out.println("Valor incorrecto");
+        }
+    }
 }
