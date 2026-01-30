@@ -1,0 +1,7 @@
+EJERCICIO 6--ViviendaEnAlquiler--
+Atributos: metros, numeroVentanas, numeroHabitaciones, direccion, metrosTerraza, tienePiscina, tieneGaraje, tipo (local, piso, chalet), precioAlquiler, disponible. Realizar el override de toString.
+Crear la clase viviendaAlquiler y genera en el main varias vivientas en alquiler.
+
+EJERCICIO 7—ViviendaEnAlquiler (agencia)--
+Para el ejercicio anterior, generar un menú que permita incluir viviendasEnAlquiler y permita mediante métodos realizar el alquiler de una vivienda, pasar a disponible la vivienda, listar todas las viviendas, listar todas las viviendas alquiladas, listar todas las viviendas disponibles.
+Gestionar mediante ArrayList.
