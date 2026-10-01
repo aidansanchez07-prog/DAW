@@ -1,0 +1,10 @@
+F;1;delantero;1;Lamine;Yamal;13/07/2007;15;20;45;2;0
+E;FED123;2;Pep;Guardiola;18/01/1971
+F;ERROR;delantero;3;Iago;Aspas;22/10/1987;10;5;30;1;0
+M;Fisioterapia;15;4;Juan;Carlos;05/05/1980
+E;FED456;5;Carlo;Ancelotti;FECHA_INVALIDA
+F;14;centrocampista;6;Aitana;Bonmati;18/01/1998;12;10;38;1;0
+M;Osteopatia;MUCHOS;7;Elena;Gomez;11/11/1985
+F;7;extremo;8;Vinicius;Junior;12/07/2000;22;30;50;5;1
+E;FED789;9;Lionel;Scaloni
+M;Recuperacion;20;10;Roberto;Sanz;30/03/1975

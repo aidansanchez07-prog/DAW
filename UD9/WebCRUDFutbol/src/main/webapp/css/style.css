@@ -1,0 +1,31 @@
+.btn{
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: Arial;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #084298;
+}
+
+.btn-tabla{
+    background-color: #0d6efd;
+    color: white;
+    padding: 1px 1px;
+    text-decoration: none;
+    border-radius: 1px;
+    font-family: Arial;
+    transition: 0.3s;
+}
+
+.btn-tabla:hover{
+    background-color: #084298;
+}
+/*
+    Created on : 21 may 2026, 19:28:17
+    Author     : aidan
+*/

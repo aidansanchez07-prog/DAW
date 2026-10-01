@@ -1,5 +1,6 @@
 package mainseleccionfutbol;
 
+import java.time.*;
 import java.util.Date;
 
 /**
@@ -11,8 +12,8 @@ public abstract class SeleccionFutbol {
     protected String Nombre;
     protected String Apellidos;
     protected Date fechaNacimiento;
-    public abstract void Concentrarse();
-    public abstract void Viajar();
+    public abstract String Concentrarse();
+    public abstract String Viajar();
 
     public SeleccionFutbol(int id, String Nombre, String Apellidos, Date fechaNacimiento) {
         this.id = id;
@@ -54,8 +55,19 @@ public abstract class SeleccionFutbol {
     }
     
     //calcular edad
-    public int calculaEdad(){
-        return 1;
+  public int calculaEdad(){
+        //opcion1 -> no es la mejor solucion, ni la más exacta. getYear esta deprecated.
+//        Date hoy = new Date();
+//        return hoy.getYear()-this.getFechaNacimiento().getYear();
+
+        //opcion2. Conviertiendo de Date a LocalDate.
+        LocalDate fechaNac = this.fechaNacimiento.toInstant()
+                .atZone(ZoneId.systemDefault())
+                .toLocalDate();
+        
+        //fecha actual en LocalDate
+        LocalDate hoy = LocalDate.now();
+        return Period.between(fechaNac, hoy).getYears();
     }
 
     @Override

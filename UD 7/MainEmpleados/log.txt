@@ -1,0 +1,18 @@
+Linea: 1 generada correctamente
+Linea: 1 generada correctamente
+Linea: 1 generada correctamente
+Parametros insuficientes en la linea: 2
+Parametros insuficientes en la linea: 2
+Parametros insuficientes en la linea: 2
+Linea: 3 generada correctamente
+Linea: 3 generada correctamente
+Linea: 3 generada correctamente
+Linea: 4 generada correctamente
+Linea: 4 generada correctamente
+Linea: 5 generada correctamente
+Linea: 4 generada correctamente
+Linea: 5 generada correctamente
+Linea: 6 generada correctamente
+Linea: 5 generada correctamente
+Linea: 6 generada correctamente
+Linea: 6 generada correctamente

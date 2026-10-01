@@ -1,114 +1,24 @@
-/UD2/Tema 1/Asignatura_dia/target/
-/UD2/Tema 1/EJ82_Tema1/target/
-/UD2/Tema 1/Helloworld/target/
-/UD2/Tema 1/Introducir_numero_dia/target/
-/UD2/Tema 1/Menor-Mayor/target/
-/UD2/Tema 1/Repaso_UD1/target/
-/UD2/Tema 1/Saludos/target/
-/UD2/Tema 1/Segun_hora_momento_del_dia/target/
-/UD2/Tema 1/Sentenciasdecontrol/target/
-/UD2/Tema 1/Sueldo_horas_extra/target/
-/UD2/Tema 1/TiendaApp/target/
-/UD2/Tema 1/Variables/target/
-/UD2/Tema 2/Factorial/target/
-/UD2/Tema 2/PruebaEvaluable1Ejercicio4/target/
-/UD2/Tema 2/juegoDados/build/
-/UD2/Tema 2/juegoDados/nbproject/private/
-/UD2/Asignatura_dia/target/
-/UD2/EJ82_Tema1/target/
-/UD2/Helloworld/target/
-/UD2/Introducir_numero_dia/target/
-/UD2/Menor-Mayor/target/
-/UD2/Repaso_UD1/target/
-/UD2/Saludos/target/
-/UD2/Segun_hora_momento_del_dia/target/
-/UD2/Sentenciasdecontrol/target/
-/UD2/Sueldo_horas_extra/target/
-/UD2/TiendaApp/target/
-/UD2/Variables/target/
-/UD2/Factorial/target/
-/UD2/PruebaEvaluable1Ejercicio4/target/
-/UD2/juegoDados/build/
-/UD2/juegoDados/nbproject/private/
-/UD2/FactorialRecursivo/target/
-/UD2/Fibonacci/target/
-/UD2/Fibonacci_funcion/target/
-/UD2/Factorial_recursivo/target/
-/UD2/Calculadora_funciones/target/
-/UD3/NotasDAW/target/
-/UD3/chorizo/target/
-/UD3/MuestraAsignatura/target/
-/UD3/Ejercicio_2_Arrays/target/
-/UD3/Ej_4_Arrays/target/
-/UD3/Comparacion_de_Arrays/nbproject/private/
-/UD3/Comparacion_de_Arrays/build/
-/UD3/Max_Min_Media/nbproject/private/
-/UD3/Max_Min_Media/build/
-/UD3/Aleatorios y multiplos/nbproject/private/
-/UD3/Aleatorios y multiplos/build/
-/UD3/Primera matriz/nbproject/private/
-/UD3/Primera matriz/build/
-/UD3/MatrizDinamica/nbproject/private/
-/UD3/MatrizDinamica/build/
-/UD3/15 Numeros Orden Random/nbproject/private/
-/UD3/15 Numeros Orden Random/build/
-/UD3/Ej5_array/nbproject/private/
-/UD3/Ej5_array/build/
-/UD3/Ej9_array/nbproject/private/
-/UD3/Ej9_array/build/
-/UD3/Ej8_array/nbproject/private/
-/UD3/Ej8_array/build/
-/UD3/Ej6_arrays/nbproject/private/
-/UD3/Ej6_arrays/build/
-/UD3/Ejercicio matrices facil/nbproject/private/
-/UD3/Ejercicio matrices facil/build/
-/UD3/Ej19_matriz/nbproject/private/
-/UD3/Ej20_matriz/nbproject/private/
-/UD3/Ej20_matriz/build/
-/UD3/Ej23_matriz/nbproject/private/
-/UD3/Ej23_matriz/build/
-/UD3/Ej22_matriz/nbproject/private/
-/UD3/Ej22_matriz/build/
-/UD3/Ej15_array/nbproject/private/
-/UD3/Ej10_array/nbproject/private/
-/UD3/Ej10_array/build/
-/UD3/EjArrayList/nbproject/private/
-/UD3/EjArrayList/build/
-/UD3/ArrayListaleAtorios/nbproject/private/
-/UD3/ArrayListaleAtorios/build/
-/UD4/MainBicicleta/nbproject/private/
-/UD4/MainBicicleta/build/
-/UD4/Maincoche/nbproject/private/
-/UD4/Maincoche/build/
-/UD4/Maincoche/dist/
-/UD4/MainBicicleta/dist/
-/UD4/MainOrdenador/nbproject/private/
-/UD4/MainOrdenador/build/
-/UD4/Main Carrera/nbproject/private/
-/UD4/Main Carrera/build/
-/UD4/MainOrdenador/dist/
-/UD4/Cuenta/nbproject/private/
-/UD4/Main cuenta/nbproject/private/
-/UD4/Main cuenta/build/
-/UD4/Trabajo Game matrices/nbproject/private/
-/UD4/Trabajo Game matrices/build/
-/UD4/BaloncestoMain/nbproject/private/
-/UD4/BaloncestoMain/build/
-/UD6/UD6/nbproject/private/
-/UD6/MainInventarioIT/nbproject/private/
-/UD6/Main vehiculos/nbproject/private/
-/UD6/Coche/nbproject/private/
-/UD6/Main vehiculos/build/
-/UD6/MainInventarioIT/build/
-/UD6/MainGeometria/nbproject/private/
-/UD6/MainGeometria/build/
-/UD6/mainVehiculoHerencia/nbproject/private/
-/UD6/mainVehiculoHerencia/build/
-/UD6/mainVehiculoHerencia/dist/
-/UD6/Main vehiculos/dist/
-/UD6/MainAnimales/nbproject/private/
-/UD6/MainAnimales/build/
-/UD6/MainAnimales/dist/
-/UD6/mainpersona/nbproject/private/
-/UD6/mainpersona/build/
-/UD6/MainSeleccionFutbol/nbproject/private/
+# Compilados y salidas de NetBeans/Maven
+target/
+build/
+dist/
+out/
+nbproject/private/
+*.class
+
+# Instaladores, accesos directos y comprimidos (los .rar/.zip duplican carpetas)
+*.exe
+*.msi
+*.lnk
+*.rar
+*.zip
+*.7z
+
+# Núcleo de WordPress (no es código propio; sí se sube wp-content)
+**/wordpress/wp-admin/
+**/wordpress/wp-includes/
+
+# Sistema
+desktop.ini
+Thumbs.db
+.DS_Store
