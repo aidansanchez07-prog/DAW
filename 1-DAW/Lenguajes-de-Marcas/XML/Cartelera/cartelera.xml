@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "catalogo.dtd">
+<catalogo>
+    
+    <pelicula id="p1">
+        <titulo>Torrente Presidente</titulo>
+        <director>Santiago Segura</director>
+        <anio>2026</anio>
+        <genero>Ciencia Ficción</genero>
+        <duracion>103 min</duracion>
+        <actores>
+            <actor>Santiago Segura</actor>
+            <actor>Canita Brava</actor>
+        </actores>
+    </pelicula>
+    
+    <pelicula id="p2">
+        <titulo>Pulp Fiction</titulo>
+        <director>Quentin Tarantino</director>
+        <anio>1994</anio>
+        <genero>Crimen</genero>
+        <duracion>154 min</duracion>
+    </pelicula>
+    
+    <pelicula id="p3">
+        <titulo>El Show de Truman</titulo>
+        <director>Peter Weir</director>
+        <anio>1998</anio>
+        <genero>Comedia</genero>
+        <duracion>103 min</duracion>
+    </pelicula>
+    
+</catalogo>

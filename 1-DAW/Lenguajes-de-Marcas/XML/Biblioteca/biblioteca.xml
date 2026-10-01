@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libros>
+    <libro id="l1">
+        <titulo>El Quijote</titulo>
+        <autores>
+            <autor>Miguel de Cervantes</autor>
+        </autores>
+        <anio>1605</anio>
+        <editorial>Novela</editorial>
+        <categoria>863</categoria>
+    </libro>
+    
+    <libro id="l2">
+        <titulo>Cien Años de Soledad</titulo>
+        <autores>
+            <autor>Gabriel García Márquez</autor>
+            <autor>Otro Autor</autor>
+        </autores>
+        <anio>1967</anio>
+        <editorial>Realismo Mágico</editorial>
+        
+    </libro>
+    
+    <libro id="l3">
+        <titulo>1984</titulo>
+        <autores>
+            <autor>George Orwell</autor>
+        </autores>
+        <anio>1949</anio>
+        <editorial>Dystopía</editorial>
+        
+    </libro>
+    </libros>
+   
+    <usuarios>
+        <usuario id="u1">
+            <nombre>Juan</nombre>
+            <apellido>Pérez</apellido>
+            <email>juan.perez@example.com</email>
+            <tipo>estudiante</tipo>
+        </usuario>
+        <usuario id="u2">
+            <nombre>María</nombre>
+            <apellido>García</apellido>
+            <email>maria.garcia@example.com</email>
+        </usuario>
+    </usuarios>
+    <prestamos>
+        <prestamo id="pr1" usuario_ref="u1" libro_ref="l2">
+            <fecha_inicio>2024-01-15</fecha_inicio>
+            <fecha_devolucion>2024-02-15</fecha_devolucion>
+        </prestamo>
+        <prestamo id="pr2" usuario_ref="u2" libro_ref="l3">
+            <fecha_inicio>2024-01-20</fecha_inicio>
+            <fecha_devolucion>2024-02-20</fecha_devolucion>
+        </prestamo>
+    </prestamos>
+</biblioteca>

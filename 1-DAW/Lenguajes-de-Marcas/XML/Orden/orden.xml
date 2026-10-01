@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="orden.xsl"?>
+<taller>
+
+    <orden numero="R101" urgente="true">
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <anio>2019</anio>
+        <fecha>2026-03-25</fecha>
+        <servicios>
+            <item>
+                <descripcion>Cambio de correa de distribución</descripcion>
+                <coste>185.50</coste>
+            </item>
+            <item>
+                <descripcion>Sustitución de pastillas de freno delanteras</descripcion>
+                <coste>74.00</coste>
+            </item>
+            <item>
+                <descripcion>Revisión y recarga de aire acondicionado</descripcion>
+                <coste>60.00</coste>
+            </item>
+        </servicios>
+        <estado>en_proceso</estado>
+    </orden>
+
+    <orden numero="R102" urgente="false">
+        <marca>Ford</marca>
+        <modelo>Focus</modelo>
+        <anio>2015</anio>
+        <fecha>2026-03-28</fecha>
+        <servicios>
+            <item>
+                <descripcion>Cambio de aceite y filtro</descripcion>
+                <coste>45.99</coste>
+            </item>
+            <item>
+                <descripcion>Alineación y balanceo de ruedas</descripcion>
+                <coste>55.00</coste>
+            </item>
+        </servicios>
+        <estado>finalizado</estado>
+    </orden>
+
+</taller>

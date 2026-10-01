@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<recetario>
+		<receta comensales="4">
+			<nombre>Sopa de Cebolla</nombre>
+				<ingredientes>
+					<ingrediente cantidad="1Kg">	• cebollas.</ingrediente>
+					<ingrediente cantidad="2L">	• caldo de carne.</ingrediente>
+					<ingrediente cantidad="100g">	• mantequilla.</ingrediente>
+					<ingrediente cantidad="1_cucharada">	• harina.</ingrediente>
+					<ingrediente cantidad="100g">	• queso emmental suizo o gruyere rallado.</ingrediente>
+					<ingrediente>	• Pan tostado en rebanadas.</ingrediente>
+					<ingrediente>	• Tomillo.</ingrediente>
+					<ingrediente cantidad="1_hoja">	•laurel.</ingrediente>
+					<ingrediente>	• Pimienta.</ingrediente>
+				</ingredientes>
+				<procesos>
+					<proceso paso="1">• Pelar y partir las cebollas en rodajas finas.</proceso>
+					<proceso paso="2">• Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén
+					transparentes sin dorarse.</proceso>
+					<proceso paso="3">• Añadir la harina sin dejar de remover.</proceso>
+					<proceso paso="4">• Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</proceso>
+					<proceso paso="5">• Dejar cocer a fuego lento durante unos 15 minutos.</proceso>
+					<proceso paso="6">• Poner las rebanadas de pan encima, espolvorear el queso y gratinar al
+					horno.</proceso>
+				</procesos>
+		</receta>
+	</recetario>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo.xsl"?>
+<lista_tareas>
+    <tarea>
+        <nombre>Comprar leche</nombre>
+        <prioridad>Alta</prioridad>
+    </tarea>
+    <tarea>
+        <nombre>Pasear al perro</nombre>
+        <prioridad>Media</prioridad>
+    </tarea>
+</lista_tareas>

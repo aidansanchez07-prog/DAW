@@ -1,0 +1,16 @@
+.caja {
+    width: 200px;
+    height: 100px;
+}
+
+.primera {
+    background-color: steelblue;
+    margin-left: 20px;
+}
+
+.segunda {
+    background-color: tomato;
+    margin-left: 40px;
+    position: relative;
+    top: -50px;
+}

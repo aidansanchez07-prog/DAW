@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pagina">
+ 
+    <h1>Formulario de contacto</h1>
+ 
+    
+    <div class="zona">
+      <h2>Introduzca sus datos</h2>
+ 
+      <form action="#" method="post">
+ 
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar">
+        </p>
+ 
+        <p>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Aquí su nombre">
+        </p>
+ 
+        <p>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono">
+        </p>
+ 
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </p>
+ 
+        <p>
+          <label for="fecha">Fecha de la incidencia:</label>
+          <input type="date" id="fecha" name="fecha">
+        </p>
+ 
+        <p>
+          <label for="motivo">Motivo de la consulta:</label>
+          <select id="motivo" name="motivo">
+            <option value="tecnica" selected>Incidencia técnica</option>
+            <option value="informacion">Solicitud de información</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="otros">Otros</option>
+          </select>
+        </p>
+ 
+        <p>
+          <label for="comentario">Comentario:</label><br>
+          <textarea id="comentario" name="comentario" rows="8" cols="30"></textarea>
+        </p>
+ 
+      </form>
+    </div>
+ 
+    <hr class="separador">
+ 
+    
+    <div class="zona">
+      <h2>Información de contacto</h2>
+ 
+      <table>
+        <tr>
+          <td colspan="2">Horarios</td>
+        </tr>
+        <tr>
+          <td>Lunes a viernes</td>
+          <td>8:30 - 15:00 / 15:30 - 22:00</td>
+        </tr>
+      </table>
+ 
+      <br>
+ 
+      <table>
+        <tr>
+          <td>Dirección:</td>
+          <td>Finca El Arquillo s/n</td>
+        </tr>
+        <tr>
+          <td>Población:</td>
+          <td>San Pedro Alcántara</td>
+        </tr>
+      </table>
+ 
+      <p>Mapa de localización:</p>
+      <iframe
+        src="https://www.google.com/maps?q=IES+Salduba,+San+Pedro+de+Alc%C3%A1ntara,+M%C3%A1laga&output=embed"
+        title="Mapa de localización del IES Salduba"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+ 
+    <hr class="cierre">
+ 
+  </div>
+</body>
+</html>

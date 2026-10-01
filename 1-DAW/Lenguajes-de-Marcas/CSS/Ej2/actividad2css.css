@@ -1,0 +1,25 @@
+
+.fondo { 
+    background-color: lightblue;
+}
+#rosa {
+    color: pink;
+}
+.verde {
+    color: green;
+}
+.verde span {
+    color: black;
+}
+.rojo {
+    color: red;
+}
+.rojo span {
+    color: rgb(255, 225, 0);
+}
+.azul {
+    color: blue;
+}
+.azul span {
+    color: rgb(68, 255, 0);
+}

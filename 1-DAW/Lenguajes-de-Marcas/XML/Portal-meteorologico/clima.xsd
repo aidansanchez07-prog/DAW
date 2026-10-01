@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+  <xs:element name="reporte_meteorologico">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="fecha" type="xs:date"/>
+
+        <xs:element name="localidad" type="tipoLocalidad"
+                    minOccurs="1" maxOccurs="unbounded"/>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:complexType name="tipoLocalidad">
+    <xs:sequence>
+      <xs:element name="temperatura"   type="tipoTemperatura"/>
+      <xs:element name="estado_cielo"  type="xs:string"/>
+      <xs:element name="viento"        type="tipoViento"/>
+      <xs:element name="estado_mar"    type="tipoEstadoMar"/>
+    </xs:sequence>
+
+    <xs:attribute name="nombre"    type="xs:string" use="required"/>
+    <xs:attribute name="provincia" type="xs:string" use="required"/>
+  </xs:complexType>
+
+
+  <xs:simpleType name="tipoTemperatura">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="-50"/>
+      <xs:maxInclusive value="60"/>
+      <xs:fractionDigits value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="tipoViento">
+
+    <xs:simpleContent>
+      <xs:extension base="xs:nonNegativeInteger">
+        <xs:attribute name="direccion" type="tipoDireccion" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+
+  <xs:simpleType name="tipoDireccion">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Norte"/>
+      <xs:enumeration value="Sur"/>
+      <xs:enumeration value="Este"/>
+      <xs:enumeration value="Oeste"/>
+      <xs:enumeration value="Noreste"/>
+      <xs:enumeration value="Noroeste"/>
+      <xs:enumeration value="Sureste"/>
+      <xs:enumeration value="Suroeste"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipoEstadoMar">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="en calma"/>
+      <xs:enumeration value="rizado"/>
+      <xs:enumeration value="marejadilla"/>
+      <xs:enumeration value="marejada"/>
+      <xs:enumeration value="bravo"/>
+      <xs:enumeration value="peligroso"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

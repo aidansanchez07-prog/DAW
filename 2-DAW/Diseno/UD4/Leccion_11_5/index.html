@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+        .padre {
+  width: 200px;
+  border: 10px solid black;
+  padding: 20px;
+}
+ 
+.hijo {
+  width: 50%;
+  border: 2px solid black;
+  padding: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="padre">
+    <div class="hijo">Hijo</div>
+</body>
+</html>
+<!-- 1. ¿Cuántos píxeles de ancho medirá el contenido (ojo, el contenido) del div de la clase hijo?
+-100px
+2. Si añadimos la siguiente regla CSS:
+* {
+box-sizing: border-box;
+}
+¿Cuántos píxeles de ancho medirá el contenido (ojo, el contenido) del div de la clase hijo?"
+-56px -->

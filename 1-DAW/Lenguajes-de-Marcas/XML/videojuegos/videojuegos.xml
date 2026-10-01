@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo_avanzado.xsl"?>
+<catalogo>
+    <juego categoria="RPG">
+        <titulo>The Witcher 3</titulo>
+        <precio>29.99</precio>
+        <oferta>si</oferta>
+        <url>https://ejemplo.com/witcher3</url>
+    </juego>
+    <juego categoria="Accion">
+        <titulo>Elden Ring</titulo>
+        <precio>59.99</precio>
+        <oferta>no</oferta>
+        <url>https://ejemplo.com/eldenring</url>
+    </juego>
+    <juego categoria="Indie">
+        <titulo>Hollow Knight</titulo>
+        <precio>14.99</precio>
+        <oferta>si</oferta>
+        <url>https://ejemplo.com/hollowknight</url>
+    </juego>
+</catalogo>

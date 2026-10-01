@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ies_salduba>
+    <Grado_superior>
+        <DAW>
+            <primero>
+                <asignaturas>  
+                    <Lenguaje_de_marcas>
+                        <horas>4 horas semanales</horas>
+                        <caracter>obligatorio</caracter>
+                        <empieza>15/09/2025</empieza>
+                        <termina>30/06/2026</termina>
+                    
+                        <alumnos>
+                            <Ana_Fernandez_Gutierrez>
+                                <nombre>Ana Fernandez Gutierrez</nombre>
+                                <NIF>16965696L</NIF>
+                                <telefono>789654321</telefono>
+                                <email>ana.fdezgtrrez@hotmail.com</email>
+                                <Dirección>C/ El Percebe, 13 de Santander CP 39302</Dirección>
+                            </Ana_Fernandez_Gutierrez>
+                            <Pepito_Grillo>
+                                <nombre>Pepito Grillo</nombre>
+                                <NIF>98765432H</NIF>
+                                <telefono>656566555</telefono>
+                                <email>yhyh@yahoo.com</email>
+                                <Dirección>Avd. El Pez, 5 de Suances CP 39401</Dirección>
+                                <Nota>Apto</Nota>
+                                <Faltas>0</Faltas>
+                            </Pepito_Grillo>
+                        </alumnos> 
+                    </Lenguaje_de_marcas>
+                </asignaturas>   
+            </primero>
+        </DAW>
+    </Grado_superior>
+</Ies_salduba>

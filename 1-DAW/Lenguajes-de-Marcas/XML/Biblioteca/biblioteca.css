@@ -1,0 +1,27 @@
+th {
+    background-color: #e8e8e8;
+    font-weight: bold;
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border: #333 solid 1px;
+}
+
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    border: #333 solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+td {
+    
+    padding: 7px 12px;
+    border: #333 solid 1px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+
+<body>
+    <h1>Formulario de registro</h1><br>
+    <form>
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname" maxlength="50"><br><br>
+        <label for="lname">Apellidos:</label>
+        <input type="text" id="lname" name="lname" maxlength="50">
+    </form>
+    <form>
+        Sexo:<input type="radio" name="sexo" value="Hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sexo" value="Mujer">
+        <label for="hombre">Mujer</label>
+    </form>
+    <br>
+    <form>
+        <label for="correo">Correo:</label>
+        <input type="text" id="correo" name="correo">
+    </form>
+    <br>
+    <form>
+        <label for="poblacion">Población:</label>
+        <select id="poblacion" name="poblacion">
+            <option value="alicante">Alicante</option>
+            <option value="madrid">Madrid</option>
+            <option value="sevilla">Sevilla</option>
+            <option value="valencia">Valencia</option>
+        </select>
+    </form>
+    <br>
+    <form>
+        <label for="descripcion">Descripcion:</label>
+        <textarea id="descripción" name="descripcion"></textarea>
+        
+    </form>
+    <form>
+        <input type="checkbox" name="informacion" value="informacion">
+        <label for="informacion">Deseo recibir informacion sobre novedades y ofertas</label><br>
+        <input type="checkbox" name="leido" value="leido">
+        <label for="leido">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
+    </form>
+     <br><input type="submit" value="Submit">
+</body>
+</html>
+    

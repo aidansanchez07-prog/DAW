@@ -1,0 +1,129 @@
+main, section, article, header, footer, aside, nav {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/*----------------------*
+ *     CABECERA         *
+ *----------------------*/
+header {
+    background: #2b5fad;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header h2 {
+    margin-top: 5px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+/*----------------------*
+ *      NAVEGACIÓN      *
+ *----------------------*/
+nav {
+    background: #1e3f78;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #ffec73;
+}
+
+/*----------------------*
+ *       SECCIONES      *
+ *----------------------*/
+section {
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+section > h1 {
+    border-left: 5px solid #2b5fad;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/*----------------------*
+ *       ARTÍCULOS      *
+ *----------------------*/
+article {
+    margin-bottom: 40px;
+}
+
+article header h1 {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    color: #2b5fad;
+}
+
+article header h2 {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+article p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+article footer {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+/*----------------------*
+ *        ASIDE         *
+ *----------------------*/
+aside {
+    background: #fff8d6;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 6px;
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+/*----------------------*
+ *      PIE DE PÁGINA   *
+ *----------------------*/
+footer {
+    margin-top: 50px;
+    background: #aabbbd;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer address {
+    font-style: normal;
+    opacity: 0.8;
+    margin-top: 10px;
+}

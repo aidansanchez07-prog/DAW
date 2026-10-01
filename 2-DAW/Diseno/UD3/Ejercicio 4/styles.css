@@ -1,0 +1,18 @@
+.padre {
+    width: 50%;
+    background-color: #ffca3a;
+    padding: 20px;
+  }
+  .hijo1 {
+    width: 75%;
+    background-color: #8ac926;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .hijo2 {
+    width: 75vw;
+    background-color: #1982c4;
+    padding: 15px;
+    color: #fff;
+  }

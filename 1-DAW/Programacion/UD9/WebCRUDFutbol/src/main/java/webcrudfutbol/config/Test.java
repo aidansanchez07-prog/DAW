@@ -11,7 +11,7 @@ public class Test {
         Connection cn = null;
         
         cn=ConexionBD.getConnection();
-        
+          System.out.println("  a");
         if (cn == null){
             System.out.println("No hay conexion con la BBDD");
         } else{

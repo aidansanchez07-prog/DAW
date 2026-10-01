@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Repaso de HTML.</title>
+</head>
+
+<body>
+    <h1> Repaso de HTML </h1>
+    <a href="https://www.w3schools.com/">
+        <img src="assets/5847f5bdcef1014c0b5e489c.webp" alt="HTML5Logo" width="200" height="200">
+    </a>
+    <ul>
+        <li>
+            <a href="#texto">Texto </a>
+        </li>
+        <li>
+            <a href="#tabla">Tabla</a>
+        </li>
+        <li>
+            <a href="#formulario">Formulario</a>
+        </li>
+    </ul>
+    <h2 id="texto"> Texto </h2>
+    <p>Ejemplo basico: uso de etiquetas de formato y atributos basicos para la etiqueta body</p>
+    <p><b>Negrita</b></p>
+    <p><i>Cursiva</i></p>
+    <p><del>Subrayado</del></p>
+    <p><strong>Grande</strong></p>
+    <p><small>Pequeño</small></p>
+    <p>Esto es un<sub>subindice</sub></p>
+    <p>Esto es un<sup>superindice</sup></p><br>
+    <h2 id="tabla">Tabla</h2>
+    <table cellpadding="8" cellspacing="8">
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <tr>
+            <th> Medio </th>
+            <th> Nombre </th>
+            <th> Tipo de transmision </th>
+            <th> Velocidad de transmision </th>
+            <th> Distancia maxima </th>
+        </tr>
+        <tr>
+            <td rowspan="2"><strong> Fisico</strong> </td>
+            <td> pares trenzados </td>
+            <td> señales eléctricas </td>
+            <td> hasta 1Gb/s </td>
+            <td> &lt;100 m </td>
+        </tr>
+        <tr>
+            <td> fibra optica </td>
+            <td> haz de luz </td>
+            <td> hasta 1 Tb/s</td>
+            <td> &lt;2 km </td>
+        </tr>
+        <tr>
+            <td rowspan="2"><strong> Sin cable</strong> </td>
+            <td> Wi-Fi </td>
+            <td> ondas electromagnéticas </td>
+            <td> hasta 100 Mb/s </td>
+            <td> &lt;100 m </td>
+        </tr>
+        <tr>
+            <td> Bluetooth </td>
+            <td> ondas electromagnéticas </td>
+            <td> hasta 3Mb/s </td>
+            <td> &lt;100 m </td>
+        </tr>
+    </table>
+    <h2 id="formulario">Formulario</h2>
+    <form>
+        <label for="username">Nombre:</label>
+        <input type="text" id="username" name="username" maxlength="15"><br>
+        <label for="pwd">Contraseña:</label>
+        <input type="password" id="pwd" name="pwd" maxlength="8"><br>
+    </form>
+    <form>
+        <br>Sexo:<input type="radio" name="sexo" value="Hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sexo" value="Mujer">
+        <label for="hombre">Mujer</label><br>
+    </form>
+    <form>
+    <br><input type="checkbox" name="acept" value="acept">
+        <label for="acept">Acepto el tratamiento de mis datos para gestionar mi solicitud</label><br>
+    </form>
+    <form>
+        <br><label for="horario">Preferencias:</label>
+        <select id="horario" name="horario">
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+            <option value="indiferente">Indiferente</option>
+        </select>
+    </form>
+    <form>
+        <br><label for="descripcion">Solicitud:</label>
+        <textarea id="descripción" name="descripcion" maxlength="200" rows="4" cols="40"></textarea>
+        
+    </form>
+    <br><input type="submit" value="Submit">
+</body>
+
+</html>

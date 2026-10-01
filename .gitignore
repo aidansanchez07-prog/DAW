@@ -14,9 +14,8 @@ nbproject/private/
 *.zip
 *.7z
 
-# Núcleo de WordPress (no es código propio; sí se sube wp-content)
-**/wordpress/wp-admin/
-**/wordpress/wp-includes/
+# WordPress descargado sin modificar (no es código propio)
+**/wordpress/
 
 # Sistema
 desktop.ini

@@ -1,0 +1,35 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* 2. Asegura que imágenes y medios no sobrepasen su contenedor */
+img,
+video,
+iframe {
+max-width: 100%;
+height: auto;
+display: block;
+}
+/* 3. Estilos base del body */
+body {
+line-height: 1.5;
+font-family: sans-serif;
+}
+/* 4. Quitar decoración de enlaces */
+a {
+text-decoration: none;
+color: inherit;
+}
+/* 5. Quitar viñetas por defecto */
+ul,
+ol {
+list-style: none;
+}
+/* 6. Formularios consistentes */
+button,
+input,
+select,
+textarea {
+font: inherit;
+}

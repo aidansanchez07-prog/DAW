@@ -1,0 +1,18 @@
+html {
+    font-size: 20px; 
+  }
+  body {
+    font-size: 30px; 
+  }
+  div {
+   
+    color: #fff;
+  }
+  .div1 { background-color: #e63946; 
+    font-size: 2em; }
+  .div2 { background-color: #457b9d; 
+    font-size: 2em; }
+  .div3 { background-color: #2a9d8f;
+     font-size: 2em; }
+  .div4 { background-color: #f4a261; 
+    font-size: 2rem; }

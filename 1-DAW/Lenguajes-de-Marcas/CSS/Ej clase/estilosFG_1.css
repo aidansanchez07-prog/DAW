@@ -1,0 +1,11 @@
+nav {
+display: flex;
+flex-direction: row; /*Indica disposición en fila*/
+flex-wrap: nowrap; /*Indica sólo una línea, sin salto*/
+
+
+}
+nav a{
+/*Elementos secundarios, son flex por defecto*/
+background-color: aquamarine;
+}

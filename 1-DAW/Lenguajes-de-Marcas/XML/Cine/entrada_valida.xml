@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+    
+    <ticket id="T1">
+        <pelicula>Dune: Parte Dos</pelicula>
+        <fecha>2026-04-05</fecha>
+        <sala>7</sala>
+    </ticket>
+    
+    <ticket id="T2">
+        <pelicula>El Señor de los Anillos: La Guerra de los Rohirrim</pelicula>
+        <fecha>2026-04-05</fecha>
+        <sala>3</sala>
+    </ticket>
+    
+</cartelera>

@@ -1,31 +1,62 @@
-.btn{
-    background-color: #0d6efd;
-    color: white;
-    padding: 12px 20px;
-    text-decoration: none;
-    border-radius: 6px;
-    font-family: Arial;
-    transition: 0.3s;
-}
 
-.btn:hover{
-    background-color: #084298;
-}
-
-.btn-tabla{
-    background-color: #0d6efd;
-    color: white;
-    padding: 1px 1px;
-    text-decoration: none;
-    border-radius: 1px;
-    font-family: Arial;
-    transition: 0.3s;
-}
-
-.btn-tabla:hover{
-    background-color: #084298;
-}
-/*
-    Created on : 21 may 2026, 19:28:17
+/* 
+    Created on : 2 jun 2026, 12:46:32
     Author     : aidan
 */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+h1, h3, label {
+    color: #D4AF37; /* Dorado */
+}
+
+.container, .tabla {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #D4AF37;
+}
+
+.btn, .btn-tabla {
+    display: inline-block;
+    background-color: #D4AF37;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #D4AF37;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: #222222;
+    color: #ffffff;
+    border: 1px solid #D4AF37;
+}
