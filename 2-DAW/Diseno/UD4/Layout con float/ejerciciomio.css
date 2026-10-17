@@ -1,0 +1,46 @@
+body {
+    width: 730px;
+    margin: 200px auto;
+    border: 1px solid black;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+header {
+    height: 75px;
+    line-height: 75px;
+    border-bottom: 1px solid lightcoral;
+}
+
+nav, main, aside {
+    float: left;
+    height: 230px;
+}
+
+main {
+    width: 438px;
+}
+nav {
+    width: 144px;
+    border-left: 1px solid darkblue;
+    border-right: 1px solid darkgreen;
+}
+
+aside {
+    width: 144px;
+    border-left: 1px solid blue;
+    border-right: 1px solid darkblue;
+}
+
+footer {
+    clear: both;
+    height: 75px;
+    line-height: 75px;
+    border-top: 1px solid lightblue;
+}

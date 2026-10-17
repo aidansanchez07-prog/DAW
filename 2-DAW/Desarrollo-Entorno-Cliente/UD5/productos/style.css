@@ -1,0 +1,76 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f5f7fb;
+  color: #111;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+#header h1 { margin: 0; font-size: 24px; }
+#header p { margin: 4px 0 0; font-size: 13px; color: #555; }
+#header code { font-size: 11px; }
+
+#btnOrden {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+}
+#btnOrden:hover { background: #eef2f7; }
+
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  background: #d3d3d3;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.card h3 { margin: 0 0 12px; font-size: 18px; }
+.card p { margin: 0 0 12px; font-size: 13px; color: #555; }
+.card .precio { font-weight: bold; color: #111; font-size: 15px; }
+
+.disponible { color: #2e7d32 !important; font-weight: bold; }
+.agotado { color: #b23b3b !important; font-weight: bold; }
+
+#footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
